@@ -8,5 +8,6 @@ int main(void)      /*一个简单的C程序*/
     printf("I am a simple ");   /*使用printf()函数*/
     printf("computer.\n");
     printf("My favorite number is %d because it is first.\n", num);
+    
     return 0;
 }

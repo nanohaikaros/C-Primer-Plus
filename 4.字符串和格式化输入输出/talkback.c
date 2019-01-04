@@ -13,7 +13,7 @@ int main(void)
     scanf("%s", name);
     printf("%s, what's your weight in pounds?\n", name);
     scanf("%f", &weight);
-    size = sizeof(name);
+    size = sizeof name;
     letters = strlen(name);
     volume = weight/DENSITY;
     printf("Well, %s, your volume is %2.2f cubic feet.\n", name, volume);
